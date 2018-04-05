@@ -4,12 +4,10 @@
     "version": "4.0.0",
     "description": "A multipurpose HTML website template built with Bootstrap",
     "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
+        "MCG",
+        "Middlebury Consulting Group",
+        "Middlebury",
+        "Consulting"
     ],
     "homepage": "https://startbootstrap.com/template-overviews/modern-business",
     "bugs": {
