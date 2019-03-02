@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+  <html lang="en">
 
   <head>
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,6 +15,7 @@
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
     <title>Middlebury Consulting Group | MCG</title>
 
     <!-- Bootstrap core CSS -->
@@ -27,12 +26,17 @@
 
   </head>
 
+  <style type="text/css">
+    body { background: #3b5998 !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+    table tr td:empty {width: 80px;}
+  </style>
+
   <body>
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"> <img src="pictures/mcgLogo.jpeg" width=80px height=40px> </a>
+        <div class="container">
+          <a class="navbar-brand" href="index.html"> <img src="pictures/mcgLogo.jpeg" width=80px height=40px> </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,12 +48,16 @@
             <li class="nav-item">
               <a class="nav-link" href="clients.html">Clients</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="students.html">Students</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
+          <!--
+            <li class="nav-item">
+              <a href="https://www.facebook.com/middconsulting/" target="_blank"><img src="pictures/Facebook-Logo.png" width=25px height=25px hspace="10"></a>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="facebook.html"><img src="pictures/Facebook-Logo.png" width=25px height=25px hspace="2"></a>
             </li>
@@ -101,120 +109,36 @@
     <div class="container">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Students</h1>
       <hr>
-      <ol class="breadcrumb" style="background-color: #FFFFFF;">
+      <ol class="breadcrumb" style="background-color: #ffffff;">
         <li class="breadcrumb-item">
           <a href="index.html">Home</a>
         </li>
-        <li class="breadcrumb-item active">Students</li>
+        <li class="breadcrumb-item active">
+            <a href="https://www.facebook.com/middconsulting/" target="_blank">Go to FaceBook Page</a>
+          </li>
       </ol>
 
-      <!-- Image Header -->
-      <img class="img-fluid rounded mb-4" src="pictures/students-bg.jpg" height="100%" width="100%" alt="">
-
-      <!-- Marketing Icons Section -->
-      <center><h2>Why join?</h2></center>
-      <hr>
-      <br>
-      <div class="row">
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100" style="border-color: #FFFFFF;">
-            <center>
-              <h4 class="card-header" style="border-color: #FFFFFF; background-color: #FFFFFF;">Network</h4>
-            </center>
-            <div class="card-body" align="justify">
-              <img src="pictures/network.jpg" height="60%" width="100%"/>
-              <br>
-              <br>
-              <p>Work with committed and engaged students to expand your professional network</p>
-              <p>Connect with our impressive alumni</p>
-              </ul>
-            </div>
-            <!--
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-            -->
+    <!-- Allowing FaceBook plug in -->
+    <table style="width:100%">
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+          <div>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmiddconsulting%2F&tabs=timeline%2Cevents&width=800&height=600&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+            style="border:none;overflow:hidden;float:center"
+            scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" width=500 height=600> </iframe>
           </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100" style="border-color: #FFFFFF;">
-            <center>
-              <h4 class="card-header" style="border-color: #FFFFFF; background-color: #FFFFFF;">Learn</h4>
-            </center>
-            <div class="card-body" align="justify">
-              <img src="pictures/student_thinking.jpeg" height="60%" width="100%"/>
-              <br>
-              <br>
-              <p>Polish your consulting skills through our educational workshops</p>
-              <p>Ask professional  consultants during our organized video calls</p>
-            </div>
-            <!--
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-            -->
-          </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100" style="border-color: #FFFFFF;">
-            <center>
-              <h4 class="card-header" style="border-color: #FFFFFF; background-color: #FFFFFF;">Experience</h4>
-            </center>
-            <div class="card-body" align="justify">
-              <img src="pictures/student_presenter.jpeg" height="60%" width="100%"/>
-              <br>
-              <br>
-              <p>Meet with business owners to tackle real-world problems</p>
-              <p>Get feedback from industry experts and perfect your communication skills</p>
-            </div>
-            <!--
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-            -->
-          </div>
-        </div>
-      </div>
-      <!-- /.row -->
+        </td>
+      </tr>
+    </table>
+    <br>
+    <br>
 
-      <div class="row">
-        <div class="col-lg-6 mb-6">
-            <div class="card-body" align="justify">
-              <img src="pictures/students3.jpg" height="100%" width="100%">
-              <br>
-              <br>
-              <p align="center">"As student-consultants, we have the unique opportunity to help, as well as learn from our clients"</p>
-            </div>
-        </div>
-        <div class="col-lg-6 mb-6">
-          <div class="card-body" align="justify">
-            <img src="pictures/students4.jpg" height="100%" width="100%">
-            <br>
-            <br>
-            <p align="center">"What I love about MCG is giving advice that shapes real-world businesses and non-profits"</p>
-          </div>
-        </div>
-      </div>
-      <br>
-      <br>
-
-
-    </div>
-    <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">&copy; 2019 Middlebury Consulting Group</p>
-      </div>
-      <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </div>
 
   </body>
 

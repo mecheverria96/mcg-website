@@ -2,6 +2,7 @@
 <html lang="en">
 
   <head>
+    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,12 +28,17 @@
 
   </head>
 
+  <style>
+      table tr td:empty {
+      width: 30px;}
+  </style>
+
   <body>
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">MCG</a>
+        <a class="navbar-brand" href="index.html"> <img src="pictures/mcgLogo.jpeg" width=80px height=40px> </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -51,10 +57,10 @@
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a href="https://www.facebook.com/middconsulting/" target="_blank"><img src="pictures/Facebook-Logo.png" width=25px height=25px hspace="10"></a>
+              <a class="nav-link" href="facebook.html"><img src="pictures/Facebook-Logo.png" width=25px height=25px hspace="2"></a>
             </li>
             <li class="nav-item">
-              <a href="https://www.linkedin.com/company/middlebury-consulting-group" target="_blank"><img src="pictures/linkedin-logo.png" width=23px height=23px  hspace="10"></a>
+              <a href="https://www.linkedin.com/company/middlebury-consulting-group" target="_blank"><img src="pictures/linkedin-logo.png" width=23px height=23px  hspace="7" vspace="9"></a>
             </li>
             <!--
             <li class="nav-item dropdown">
@@ -146,13 +152,25 @@
           <div class="card h-100 text-center" style="border-color: #FFFFFF;">
             <!--<img class="card-img-top" src="pictures/president1.jpg" alt="">-->
             <div class="card-body">
-              <!-- <img src="pictures/alejandro.JPG" height="80%" width="100%" hspace="40" align = "right"/> -->
-              <h4 class="card-title">Alejandro Martinez Perez</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Co-President</h6>
+              <img src="pictures/alejandro.JPG" height="80%" width="100%" hspace="40" align = "right"/>
+              <table style="width:100%">
+                <tr>
+                  <td> <h4 class="card-title">Alejandro Martinez Perez</h4> </td>
+                </tr>
+                <tr>
+                  <td> <h6 class="card-subtitle mb-2 text-muted">Co-President</h6> </td>
+                </tr>
+                <tr>
+                  <td> <a href="mailto:amartinezperez@middlebury.edu">amartinezperez@middlebury.edu</a> </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </table>
+
               <!--
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
               -->
-              <a href="mailto:amartinezperez@middlebury.edu">amartinezperez@middlebury.edu</a>
             </div>
           </div>
         </div>
@@ -160,13 +178,31 @@
           <div class="card h-100 text-center" style="border-color: #FFFFFF;">
             <!--<img class="card-img-top" src="pictures/president2.jpg" alt="">-->
             <div class="card-body">
-              <!-- <img src="pictures/Isabel.JPG" height="80%" width="100%" hspace="50"/> -->
-              <h4 class="card-title">Isabel Lindsay</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Co-President</h6>
+              <img src="pictures/Isabel.JPG" height="80%" width="100%" hspace="50"/>
+              <table style="width:100%">
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td> <h4 class="card-title">Isabel Lindsay</h4> </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td> <h6 class="card-subtitle mb-2 text-muted">Co-President</h6> </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td> <a href="mailto:irlindsay@middlebury.edu">irlindsay@middlebury.edu</a> </td>
+                </tr>
+              </table>
+
               <!--
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
               -->
-              <a href="mailto:irlindsay@middlebury.edu">irlindsay@middlebury.edu</a>
             </div>
             <!--
             <div class="card-footer">
@@ -177,7 +213,7 @@
         </div>
         <div class="col-lg-2 mb-2"></div>
       </div>
-      <!-- /.row -->
+      <!-- /.row
       <br>
       <br>
       <div class="row">
@@ -186,7 +222,101 @@
         </div>
       </div>
 
+      <br> -->
+
+      <!-- Roster Table -->
       <br>
+      <table style="width:100%">
+        <tr>
+          <td></td>
+          <td><center><b>Norah Senftleber</b><br><i>Director of Speaker Series</i></center></th>
+          <td><center><b>Isabel Aguirre</b><br><i>Director of Education and Development</i></center></th>
+          <td><center><b>Lillie Atkins</b><br><i>Chief Technology Officer</i></center></th>
+          <td></td>
+          <td></td>
+          <td></td> <!-- use these to control the spacing between columns -->
+          <td><center><b>Farhan Haque</b><br><i>Treasurer</i></center></th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <br>
+      <table style="width:100%">
+        <tr>
+          <td><center><b>Kenshin Cho & Gillian O'Connor</b><br><i>Team Leaders</i></center></th>
+            <table style="width:100%">
+              <tr>
+                <td><center><font size="2">Caroline Wolfe<br>Frances VanderMeer<br>Aidan Acosta</font></center></th>
+                <td><center><font size="2">Hadjara Gado Alzouma<br>Armaan Chawla<br>Nate Eazor</font></center></th>
+              </tr>
+            </table>
+          <td><center><b>Alex Corda & Nicole Hong</b><br><i>Team Leaders</i></center></th>
+            <table style="width:100%">
+              <tr>
+                <td><center><font size="2">Grace Sheridan<br>Adam Guo<br>Owen Powers</font></center></th>
+                <td><center><font size="2">Christian Poulsen<br>Mason Olmstead<br>Isabel Herrick</font></center></th>
+              </tr>
+            </table>
+          <td><center><b>Youssef Halim & Roberto Zagarese</b><br><i>Team Leaders</i></center></th>
+            <table style="width:100%">
+              <tr>
+                <td><center><font size="2">Jimmy Caprio<br>Hassan Mouhtadi<br>Jessica Lipton</font></center></th>
+                <td><center><font size="2">Isabel Larson<br>Ruiqi Xue<br>Liam O'Brien</font></center></th>
+              </tr>
+            </table>
+          <td><center><b>Maura Lonergan & Adam Wisco</b><br><i>Team Leaders</i></center></th>
+            <table style="width:100%">
+              <tr>
+                <td><center><font size="2">Anna Zumwinkle<br>Mariano Correa<br>Lizzie Friesen</font></center></th>
+                <td><center><font size="2">Lorrisa Luo<br>Tai Nguyen<br>Salaar Khan</font></center></th>
+              </tr>
+            </table>
+          <td></td>
+        </tr>
+      </table>
+      <br> <!-- use this to separate the rows -->
+      <table style="width:100%">
+        <tr>
+          <td><center><b>Nolan Shapiro & David Powell</b><br><i>Team Leaders</i></center></th>
+            <table style="width:100%">
+              <tr>
+                <td><center><font size="2">Ryan Wheatley<br>Ben Yamron<br>Gaby Sanders</font></center></th>
+                <td><center><font size="2">Emily Allardi<br>Corey Jalbert</font></center></th>
+              </tr>
+            </table>
+            <br>
+          <td><center><b>Pierce Gidez & Brandor Matos</b><br><i>Team Leaders</i></center></th>
+            <table style="width:100%">
+              <tr>
+                <td><center><font size="2">Kelly Zhou<br>Tatiana Rengifo<br>Tanzim Ahmed</font></center></th>
+                <td><center><font size="2">Sarah McEachern<br>Thomas Slap</font></center></th>
+              </tr>
+            </table>
+            <br>
+          <td><center><b>AJ Bernstein & Dennis Miranda Cruz</b><br><i>Team Leaders</i></center></th>
+            <table style="width:100%">
+              <tr>
+                <td><center><font size="2">Raquel Maldonado<br>Thomas Tarantino<br>Hunter Parkhill<br>Erik Arvidsson</font></center></th>
+                <td><center><font size="2">Bunmi Adeloye<br>Hallie Feibel<br>Rafael Franco</font></center></th>
+              </tr>
+            </table>
+          <td><center><b>Shaye Anis & Rehan Zafar</b><br><i>Team Leaders</i></center></th>
+            <table style="width:100%">
+              <tr>
+                <td><center><font size="2">Justin Ghaeli<br>Daniel Grubbs-Donovan<br>Julia Goydan</font></center></th>
+                <td><center><font size="2">Michelle Liu<br>Ben Rivitz<br>William Bogatyrenko</font></center></th>
+              </tr>
+            </table>
+            <br>
+            <td></td>
+        </tr>
+      </table>
+      <br>
+
+
+
       <!-- Our Clients (coment out if want to use clients icons) -->
       <!--
       <h2>Our Clients</h2>
